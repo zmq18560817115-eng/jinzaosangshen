@@ -1,0 +1,1 @@
+<view class="safe-area"><view class="floating-bar"><view wx:for="{{list}}" wx:key="page" class="tab {{selected===index?'active':''}}" bindtap="switchTab" data-index="{{index}}"><view class="icon-pad"><image class="tab-icon" src="{{'/assets/'+item.icon+(selected===index?'-active':'')+'.png'}}"/></view><text>{{item.text}}</text></view></view></view>

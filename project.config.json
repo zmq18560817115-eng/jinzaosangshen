@@ -1,0 +1,67 @@
+{
+  "description": "金灶桑旅 · V1.2 绘本风原生互动导览",
+  "projectname": "金灶桑旅",
+  "miniprogramRoot": "./",
+  "compileType": "miniprogram",
+  "appid": "touristappid",
+  "setting": {
+    "es6": true,
+    "enhance": true,
+    "urlCheck": true,
+    "minified": true,
+    "minifyWXSS": true,
+    "minifyWXML": true,
+    "postcss": true,
+    "compileHotReLoad": false
+  },
+  "packOptions": {
+    "ignore": [
+      {
+        "type": "folder",
+        "value": "tests"
+      },
+      {
+        "type": "folder",
+        "value": "scripts"
+      },
+      {
+        "type": "file",
+        "value": "导入与部署说明.md"
+      },
+      {
+        "type": "file",
+        "value": "验收记录.md"
+      },
+      {
+        "type": "file",
+        "value": "package.json"
+      },
+      {
+        "type": "file",
+        "value": "assets/orchard-map-v2.png"
+      },
+      {
+        "type": "file",
+        "value": "assets/orchard-hero-v2.png"
+      },
+      {
+        "type": "folder",
+        "value": "preview"
+      },
+      {
+        "type": "folder",
+        "value": "docs"
+      },
+      {
+        "type": "file",
+        "value": "README.md"
+      },
+      {
+        "type": "file",
+        "value": "design-qa.md"
+      }
+    ],
+    "include": []
+  },
+  "libVersion": "3.7.1"
+}

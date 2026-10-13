@@ -1,0 +1,1 @@
+{"name":"jinzao-sanglv-wechat","version":"1.2.0","private":true,"description":"绘本风原生微信小程序互动导览手机工程","scripts":{"test":"node tests/native.test.cjs","appid":"node scripts/configure-appid.cjs"}}

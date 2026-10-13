@@ -1,0 +1,16 @@
+name: Check mini program
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm test
+      - run: node preview/tests/core.test.cjs
+      - run: node --check preview/app.js
+      - run: node --check utils/page.js

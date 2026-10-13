@@ -1,0 +1,67 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/map/index",
+    "pages/passport/index",
+    "pages/mine/index",
+    "pages/welcome/index",
+    "pages/garden/index",
+    "pages/booking/index",
+    "pages/ticket/index",
+    "pages/routes/index",
+    "pages/node/index",
+    "pages/scan/index",
+    "pages/task/index",
+    "pages/safety/index",
+    "pages/basket/index",
+    "pages/service/index",
+    "pages/status/index",
+    "pages/memory/index",
+    "pages/gifts/index",
+    "pages/staff/index",
+    "pages/sources/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "金灶桑旅",
+    "navigationBarBackgroundColor": "#F7F4ED",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#F7F4ED",
+    "backgroundTextStyle": "dark"
+  },
+  "tabBar": {
+    "color": "#a098a6",
+    "selectedColor": "#512567",
+    "backgroundColor": "#fffdf9",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "text": "发现",
+        "iconPath": "assets/tab-home.png",
+        "selectedIconPath": "assets/tab-home-active.png"
+      },
+      {
+        "pagePath": "pages/map/index",
+        "text": "地图",
+        "iconPath": "assets/tab-map.png",
+        "selectedIconPath": "assets/tab-map-active.png"
+      },
+      {
+        "pagePath": "pages/passport/index",
+        "text": "护照",
+        "iconPath": "assets/tab-passport.png",
+        "selectedIconPath": "assets/tab-passport-active.png"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "text": "我的",
+        "iconPath": "assets/tab-mine.png",
+        "selectedIconPath": "assets/tab-mine-active.png"
+      }
+    ],
+    "custom": true
+  },
+  "style": "v2",
+  "lazyCodeLoading": "requiredComponents",
+  "sitemapLocation": "sitemap.json"
+}
